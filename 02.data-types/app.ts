@@ -26,7 +26,7 @@ if (true) {
 
 
 
-let test: number| string;
+let test: number| string; // union
 test = 'shahwaiz';
 test = 10;
 // test = true // error
