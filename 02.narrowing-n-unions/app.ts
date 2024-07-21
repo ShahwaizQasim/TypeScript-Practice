@@ -9,11 +9,11 @@ let arr2: number[] = [2,5,8,9];
 arr2.push(23); 
 
 
-let arr: (string | number)[] = [2,4,'3'] // array ki data type string hogi ya number is ky elawa koi or data type put krenge tw error ayega
+let arr: (string | number)[] = [2,4,'3'] // array ki data type string hogi ya number is ky elawa koi or data-type hogi tw error ayega
 
 
 if (true) {
-    let z = 4;
+    let z = 4; 
     //use z
   
     console.log(z.toFixed(2));
@@ -25,8 +25,8 @@ if (true) {
 //   console.log("let: " + z); // Error: z is not defined in this scope
 
 
-
-let test: number| string; // union
+// union types
+let test: number| string; 
 test = 'shahwaiz';
 test = 10;
 // test = true // error
@@ -40,6 +40,10 @@ let myObj = {
     course: 'web and mobile app development',
     hobbies:[2,4,6,8]
 }
+
+myObj.name = "Something"; // OK
+// myObj.name = 22; // error
+
 console.log(myObj.age);
 console.log(myObj.hobbies[0]);
 
