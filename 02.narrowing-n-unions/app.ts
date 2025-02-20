@@ -8,14 +8,12 @@ let arr2: number[] = [2,5,8,9];
 
 arr2.push(23); 
 
-
-let arr: (string | number)[] = [2,4,'3'] // array ki data type string hogi ya number is ky elawa koi or data-type hogi tw error ayega
-
+// array ki data type string hogi ya number is ky elawa koi or data-type hogi tw error ayega
+let arr: (string | number)[] = [2,4,'3'] 
 
 if (true) {
     let z = 4; 
     //use z
-  
     console.log(z.toFixed(2));
   } else {
     let z = "string";

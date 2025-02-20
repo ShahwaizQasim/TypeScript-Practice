@@ -3,7 +3,7 @@ console.log('testing2');
 var arr2 = [2, 5, 8, 9];
 // arr2.push("shaha") // error
 arr2.push(23);
-var arr = [2, 4, '3']; // array ki data type string hogi ya number is ky elawa koi or data type put krenge tw error ayega
+var arr = [2, 4, '3']; // array ki data type string hogi ya number is ky elawa koi or data-type hogi tw error ayega
 if (true) {
     var z = 4;
     //use z
@@ -15,6 +15,7 @@ else {
     console.log(z.toUpperCase());
 }
 //   console.log("let: " + z); // Error: z is not defined in this scope
+// union types
 var test;
 test = 'shahwaiz';
 test = 10;
@@ -26,6 +27,8 @@ var myObj = {
     course: 'web and mobile app development',
     hobbies: [2, 4, 6, 8]
 };
+myObj.name = "Something"; // OK
+// myObj.name = 22; // error
 console.log(myObj.age);
 console.log(myObj.hobbies[0]);
 // narrowing 
