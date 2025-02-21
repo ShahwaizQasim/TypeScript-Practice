@@ -39,3 +39,17 @@ num = 9
 
 
 
+
+
+let myNameIs = "Syed Shahwaiz";
+myNameIs = "Wasid Ali";
+console.log(myNameIs);
+
+// union types
+let student : string | number;
+student = "Kunal";
+console.log(student);
+student = 24;
+console.log(student);
+
+

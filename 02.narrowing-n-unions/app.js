@@ -1,9 +1,10 @@
-console.log('testing');
-console.log('testing2');
+// Union_Types: batate hain ke variable ke multiple types ho sakte hain.
+// Narrowing_Types: un union types ko check karke ek specific type mein convert karta hai.
 var arr2 = [2, 5, 8, 9];
 // arr2.push("shaha") // error
 arr2.push(23);
-var arr = [2, 4, '3']; // array ki data type string hogi ya number is ky elawa koi or data-type hogi tw error ayega
+// array ki data type string hogi ya number is ky elawa koi or data-type hogi tw error ayega
+var arr = [2, 4, '3'];
 if (true) {
     var z = 4;
     //use z
@@ -57,4 +58,14 @@ progress = 12345;
 console.log(progress);
 progress = true;
 console.log(progress);
-// progress = null; // error
+var userInformation;
+userInformation = "Shahwaiz";
+console.log("userInformation", userInformation);
+userInformation = true;
+console.log("userInformation", userInformation);
+// userInformation = null;
+// console.log("userInformation", userInformation);
+userInformation = 33;
+console.log("userInformation", userInformation);
+// let myArr: ArrayType[] = ['2', 4, true, null, undefined];
+// console.log("Array=>", myArr);
